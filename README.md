@@ -3,33 +3,32 @@
 ## 1. Ejercicio POO
 
 ### Descripción
-Este proyecto consiste en un gestor de canciones desarrollado en Python. El gestor permite crear, almacenar y manipular información sobre canciones utilizando la clase `Song`.
+Este proyecto es un gestor de canciones desarrollado en Python. Permite crear, almacenar y manipular información sobre canciones utilizando la clase `Song`.
 
 ### Funcionamiento del Código
 
-El código se compone de dos partes principales:
+El código se divide en dos partes principales:
 
 #### Clase `Song`
 
 La clase `Song` representa una canción y tiene los siguientes atributos:
 
-- **ID**: Un identificador único para la canción.
 - **Nombre**: El nombre de la canción.
 - **Artista**: El nombre del artista o grupo que interpreta la canción.
-- **Duración**: La duración de la canción en segundos.
 - **Fecha de Lanzamiento**: La fecha en que la canción fue lanzada.
+- **Duración**: La duración de la canción en segundos.
 - **Géneros**: Una lista de géneros musicales a los que pertenece la canción.
 
-La clase `Song` también proporciona métodos para acceder y modificar estos atributos, así como para realizar pruebas sobre su funcionamiento.
+La clase `Song` proporciona los siguientes métodos:
 
-#### Función `main`
+- `__init__()`: El constructor de la clase `Song` inicializa los atributos de la canción.
+- `add_genre(genre)`: Añade un género a la lista de géneros de la canción.
+- `__eq__(other)`: Compara dos canciones para determinar si son iguales basándose en su nombre, artista y fecha de lanzamiento.
+- `__str__()`: Representa la canción como una cadena de texto en un formato legible para humanos.
 
-La función `main` contiene pruebas para verificar el funcionamiento de la clase `Song`. Estas pruebas incluyen:
+#### Enumeración `Genre`
 
-1. **Creación de una canción**: Se crea una instancia de la clase `Song` con valores específicos para cada atributo.
-2. **Formato legible para humanos**: Se verifica que la función `__str__` de la clase `Song` muestre correctamente la información de la canción en un formato legible para humanos.
-3. **Añadir un género**: Se comprueba que la función `add_genre` de la clase `Song` permita añadir un género a la lista de géneros de la canción.
-4. **Comparación de canciones**: Se verifica que la función `__eq__` de la clase `Song` compare correctamente dos canciones basándose en su ID.
+La enumeración `Genre` define los géneros musicales posibles para las canciones. Los géneros disponibles son ROCK, POP, EDM y COUNTRY.
 
 
 ## 2. Ejercicio de Recursividad: Cálculo del Factorial
