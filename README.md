@@ -1,6 +1,5 @@
 # ALGORITMOS_2_Virginia_Diaz_Quilez
 
-# ALGORITMOS_2_Virginia_Diaz_Quilez
 
 
 ## 2. Ejercicio de Recursividad: Cálculo del Factorial
