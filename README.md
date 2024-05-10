@@ -1,7 +1,7 @@
 # ALGORITMOS_2_Virginia_Diaz_Quilez
 
 
-[Link al repositorio:](https://github.com/vdiazqui/ALGORITMOS_2_Virginia_Diaz_Quilez.git)
+[Link al repositorio ALGORITMOS_2_Virginia_Diaz_Quilez](https://github.com/vdiazqui/ALGORITMOS_2_Virginia_Diaz_Quilez.git)
 ## 1. Ejercicio POO
 
 ### Descripción
