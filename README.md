@@ -1,16 +1,15 @@
 # ALGORITMOS_2_Virginia_Diaz_Quilez
 
-## 1. 
-# Gestor de Canciones
+## 1. Ejercicio POO
 
-## Descripción
+### Descripción
 Este proyecto consiste en un gestor de canciones desarrollado en Python. El gestor permite crear, almacenar y manipular información sobre canciones utilizando la clase `Song`.
 
-## Funcionamiento del Código
+### Funcionamiento del Código
 
 El código se compone de dos partes principales:
 
-### Clase `Song`
+#### Clase `Song`
 
 La clase `Song` representa una canción y tiene los siguientes atributos:
 
@@ -23,7 +22,7 @@ La clase `Song` representa una canción y tiene los siguientes atributos:
 
 La clase `Song` también proporciona métodos para acceder y modificar estos atributos, así como para realizar pruebas sobre su funcionamiento.
 
-### Función `main`
+#### Función `main`
 
 La función `main` contiene pruebas para verificar el funcionamiento de la clase `Song`. Estas pruebas incluyen:
 
