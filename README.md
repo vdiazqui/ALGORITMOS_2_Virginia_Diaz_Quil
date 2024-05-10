@@ -30,6 +30,15 @@ La clase `Song` proporciona los siguientes métodos:
 
 La enumeración `Genre` define los géneros musicales posibles para las canciones. Los géneros disponibles son ROCK, POP, EDM y COUNTRY.
 
+#### Pruebas del Código
+
+El archivo `main.py` contiene pruebas para verificar el funcionamiento de la clase `Song` y la enumeración `Genre`. Estas pruebas incluyen:
+
+- Verificar la configuración de los enums para los diferentes géneros musicales.
+- Crear canciones y añadirles géneros.
+- Comparar canciones para determinar si son iguales.
+- Representar las canciones como cadenas de texto legibles para humanos.
+- 
 
 ## 2. Ejercicio de Recursividad: Cálculo del Factorial
 
